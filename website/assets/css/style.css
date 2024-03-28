@@ -1,3 +1,35 @@
 body{
     background: #BDBDBD;
 }
+
+.todo {
+    align-items: center;
+    background-image: src="./assets/img/bg.jpg";
+    background-size: cover;
+}
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.imgg {
+    justify-content: center;
+
+}
+
+.imggg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.imggg img {
+    width: 100%;
+    height: auto;
+}
