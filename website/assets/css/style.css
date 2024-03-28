@@ -2,14 +2,47 @@ body{
     background: #BDBDBD;
 }
 
-.todo {
+/* TAGLINE.HTML */
+.Contenido {
     align-items: center;
-    background-image: src="./assets/img/bg.jpg";
+    background-image: url(https://www.visitcentroamerica.com/wp-content/uploads/2017/09/ver-centroamerica-panama-ciudad-01.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-right: 0%;
+    padding-left: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.titulo {
+    margin-top: -200px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+}
 
+.titulo h1 {
+    font-size: 120px;
+}
 
+.subtitulo {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.subtitulo h2 {
+    font-size: 60px;
+}
+
+/* SERVICES.HTML */
 .contenedor {
     display: flex;
     justify-content: center;
@@ -22,14 +55,14 @@ body{
 }
 
 .imggg {
-    width: 200px;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.imggg img {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 10px;
-}
-
-.imggg img {
-    width: 100%;
-    height: auto;
 }
