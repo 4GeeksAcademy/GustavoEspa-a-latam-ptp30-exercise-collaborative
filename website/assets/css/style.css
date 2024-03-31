@@ -54,8 +54,14 @@ body{
 
 }
 
+.col-4 {
+    flex: 0 0 auto;
+    width: auto !important;
+}
+
 .imggg {
     display: flex;
+    justify-content: end;
     height: auto;
     width: auto;
 }
@@ -64,5 +70,4 @@ body{
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 10px;
 }
