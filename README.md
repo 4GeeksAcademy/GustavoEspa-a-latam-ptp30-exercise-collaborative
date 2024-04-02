@@ -1,3 +1,6 @@
+### TAGLINE.HTML ---> Matias Schlgel (YO)
+### SERVICES.HTML ---> Matias Schlegel (YO)
+
 # Making a website as a team (Git collaboration)
 
 Practice your skills in Git while developing a typical website.
